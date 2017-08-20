@@ -12,3 +12,8 @@
 - ​
 
 
+# 证书：
+
+## 中国准精算师资格考试成绩单：
+
+![中国准精算师成绩单](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Projects/certificate/%E4%B8%AD%E5%9B%BD%E5%87%86%E7%B2%BE%E7%AE%97%E5%B8%88%E6%88%90%E7%BB%A9%E5%8D%95.jpg)
