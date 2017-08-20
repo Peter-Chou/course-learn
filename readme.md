@@ -1,4 +1,4 @@
-# **数据分析纳米学位项目：**
+# **数据分析纳米学位项目（已通过）：**
 
 - [项目1   Python分析泰坦尼克生存率的特征： Logistic回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_TitanicAnalysis/Titanic_Survival_Analysis.ipynb)
 - [项目2   Python对免费试学筛选器的改进评估： A/B Test](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_ABtest/AB_test.ipynb)
@@ -7,7 +7,7 @@
 - [项目5   Python机器学习并找出安然公司嫌疑人： 朴素贝叶斯 / 决策树](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_EnronAnalyssis/Enron_project.ipynb)
 - [项目6   可视化棒球手表现的交互呈现： dimple.js / d3.js](http://bl.ocks.org/Peter-Chou/819e62ac1506866c9d66a4c69ea7dd83)
 
-# **机器学习纳米学位项目：**
+# **机器学习纳米学位项目（学习中）：**
 
 - ​
 
