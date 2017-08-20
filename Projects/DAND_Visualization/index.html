@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://d3js.org/d3.v4.min.js"></script>
+	<script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+
+<style>
+	circle {
+		opacity: 0.5;
+	}
+	.title {
+		padding-left:180px;
+		font-size: 28px;
+		color:  #02B7E9;
+		font-weight: bold;
+	}
+	.button {
+		cursor: pointer; <!-- 当鼠标移到矩形时会变成手型-->
+	}
+	.first {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.rest {
+		font-size: 14px;
+	}
+	.legend-note {
+		font-size: 10px;
+		color: black;
+	}
+</style>
+</head>
+<body>
+<script>
+
+	var margin = {top:0, right:0, bottom:0, left:150},
+			width = 1000 - margin.left - margin.right,
+			height = 610 - margin.top - margin.bottom;
+
+	var body = d3.select("body");
+
+	// 添加标题：Baseball Player's Performance Distribution with Different Handed
+	body.append("div")
+			.attr("class", "title")
+		.append("p")
+			.text("Baseball Player's Performance Distribution");
+	
+	// 创建svg对象	
+	var svg = body.append("svg")
+				.attr("width", width + margin.left + margin.right)
+				.attr("height", height + margin.top + margin.bottom);
+	
+	// 添加chart的说明
+	svg.selectAll("title_text")
+			.data(["click rectangle to filter data ->","This chart shows the relationship between Hit Rate",
+			"and Total Home Run No. with different handed players"])
+			.enter()
+		.append("text")
+			.attr("class",function(d,i) {
+				if(i<1) {
+					return("description first");
+				} else {
+					return("description rest");
+				}
+			})
+			.attr("x", 102)
+			.attr("y", function (d, i) { 
+				if(i<1) {
+					return 17;
+				} else {
+					return 23 +17 * i;
+				}
+			})
+			.text(function (d) { return d; });
+	
+	// 提供所需的注释
+	svg.selectAll("text")
+			.data(["","","","\( B= Both Handed","R= Right Handed","L= Left Handed \)"])
+			.enter()
+		.append("text")
+			.attr("class", "legend-note")
+			.attr("x",function(d,i) { 
+				return 370 +i*90
+				})
+			.attr("y",55)
+			.text(function(d) {return d;});	
+	
+	// 读取baseball_data.csv文件
+	d3.csv("baseball_data.csv", function(error, data) {
+		data.forEach(function (d) {  	
+			d["BMI"] = String(Math.round(parseFloat(d["weight"]) * 0.4535924 * 100 / (parseFloat(d["height"]) * 0.0254)**2)/100)
+		}, this);  // 创建BMI = 体重(kg) / (身高(m)**2)
+		
+		var myChart = new dimple.chart(svg, data);
+		
+		// 设置avg（平均击中率）为X轴，并限定坐标的最大值
+		// 将X轴的名称改为：Hit Rate
+		var x = myChart.addMeasureAxis("x", "avg");
+		x.overrideMax  = 0.35;
+		x.title = "Hit Rate";
+		x.fontSize = 16;
+		x.showGridlines = false;
+		x.ticks = 6;
+		
+		// 修改dimple的默认颜色以便更好的区分类别
+		myChart.defaultColors = [
+			new dimple.color("#FF8C00"),
+			new dimple.color("#1E90FF"), 
+			new dimple.color("#32CD32") 
+		]; 
+		
+		// 设置HR（本垒打数）为y轴
+		var y = myChart.addMeasureAxis("y", "HR");
+		y.title = "Home Run No."; 	
+		y.fontSize = 16;
+		y.showGridlines = false;
+		
+		// 将handedness作为颜色分类画散点图
+		var s = myChart.addSeries(["name","weight","height","BMI","handedness"], dimple.plot.bubble);
+		
+		var myLegend = myChart.addLegend(750,24,150,50,"right");
+		
+		myChart.draw();	
+		
+		myChart.legends = [];
+		
+		var filterValues = dimple.getUniqueValues(data, "handedness");
+		
+		// 将Legend里的矩形长度放大以方便点按
+		myLegend.shapes.selectAll("rect")
+						.attr("width", 42)
+						.attr("class", "button");
+											
+		// 通过对legend里的每个矩形添加click事件，并在事件里进行相应数据的筛选
+		// 矩形第一次点按为去除该对应的数据，并将矩形的透明度调至0.1
+		// 矩形再次点按为选中该对应的数据，并将矩形的透明度调至0.85，之后如此循环
+		myLegend.shapes.selectAll("rect")
+					.on("click", function(e) {
+						var hide = false;
+						var newFilters = [];
+						filterValues.forEach(function (f) {
+							if(f === e.aggField.slice(-1)[0]) {
+								hide = true;
+							} else {
+								newFilters.push(f);
+							}
+						});
+						if(hide) {
+							d3.select(this).style("opacity", 0.2);
+						} else {
+							newFilters.push(e.aggField.slice(-1)[0]);
+							d3.select(this).style("opacity", 0.8);
+						}
+						filterValues = newFilters;
+						myChart.data = dimple.filterData(data, "handedness",filterValues);
+						myChart.draw(800);
+					});
+	});
+</script>
+</body>
+</html>
