@@ -11,7 +11,7 @@
 
 # **机器学习（进阶）纳米学位（学习中）：**
 
-- ​
+- [Python对波士顿房价进行预测： 决策树回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_boston_housing/boston_housing.ipynb)
 
 
 # 中国准精算师资格考试成绩单：
