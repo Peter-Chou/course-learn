@@ -1,17 +1,17 @@
 # **数据分析(进阶)纳米学位（已通过）：**
 
-- [项目1   Python分析泰坦尼克生存率的特征： Logistic回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_TitanicAnalysis/Titanic_Survival_Analysis.ipynb)
-- [项目2   Python对免费试学筛选器的改进评估： A/B Test](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_ABtest/AB_test.ipynb)
-- [项目3   Python对OpenStreetMap数据清理： XML / SQL](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_OSM/openstreetmap.ipynb)
-- [项目4   R对红酒评分数据进行EDA分析： 有序Probit回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_EDA/EDA.ipynb)
-- [项目5   Python机器学习并找出安然公司嫌疑人： 朴素贝叶斯 / 决策树](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_EnronAnalyssis/Enron_project.ipynb)
-- [项目6   可视化棒球手表现的交互呈现： dimple.js / d3.js](http://bl.ocks.org/Peter-Chou/819e62ac1506866c9d66a4c69ea7dd83)
+- [项目1$\,\,\,\,\,\,$   Python分析泰坦尼克生存率的特征： Logistic回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_TitanicAnalysis/Titanic_Survival_Analysis.ipynb)
+- [项目2$\,\,\,\,\,\,$   Python对免费试学筛选器的改进评估： A/B Test](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_ABtest/AB_test.ipynb)
+- [项目3$\,\,\,\,\,\,$   Python对OpenStreetMap数据清理： XML / SQL](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_OSM/openstreetmap.ipynb)
+- [项目4$\,\,\,\,\,\,$   R对红酒评分数据进行EDA分析： 有序Probit回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_EDA/EDA.ipynb)
+- [项目5$\,\,\,\,\,\,$   Python机器学习并找出安然公司嫌疑人： 朴素贝叶斯 / 决策树](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_EnronAnalyssis/Enron_project.ipynb)
+- [项目6$\,\,\,\,\,\,$   可视化棒球手表现的交互呈现： dimple.js / d3.js](http://bl.ocks.org/Peter-Chou/819e62ac1506866c9d66a4c69ea7dd83)
 
 ![数据分析纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/DAND_certificate.jpg)
 
 # **机器学习（进阶）纳米学位（学习中）：**
 
-- [项目1   Python对波士顿房价进行预测： 决策树回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_boston_housing/boston_housing.ipynb)
+- [项目1$\,\,\,\,\,\,$   Python对波士顿房价进行预测： 决策树回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_boston_housing/boston_housing.ipynb)
 
 
 # 中国准精算师资格考试成绩单：
