@@ -12,7 +12,7 @@
 # **机器学习（进阶）纳米学位（学习中）：**
 
 - [项目1 --- Python对波士顿房价进行预测： 决策树回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_boston_housing/boston_housing.ipynb)
-- [项目2 --- Python帮助慈善机构寻找潜在的捐款人： Adaboost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_finding_donors/finding_donors.ipynb) 
+- [项目2 --- Python寻找慈善机构潜在的捐款人： Adaboost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_finding_donors/finding_donors.ipynb) 
 
 
 # 中国准精算师资格考试成绩单：
