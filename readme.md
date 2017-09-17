@@ -8,7 +8,7 @@
 - [项目4 --- Python训练智能出租车学会驾驶： 强化学习](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_smartcab/smartcab.ipynb)
   ​
 
-# **数据分析(进阶)纳米学位（已通过）：**
+# **数据分析（进阶）纳米学位（已通过）：**
 
 数据清理，数据筛选，数据挖掘，建模预测，数据可视化
 
