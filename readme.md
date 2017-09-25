@@ -6,7 +6,7 @@
 - [项目2 --- Python寻找慈善机构潜在的捐款人： Adaboost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_finding_donors/finding_donors.ipynb) 
 - [项目3 --- Python对经销商数据进行客户细分： GMM聚类](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_customer_segments/customer_segments.ipynb)
 - [项目4 --- Python训练智能出租车学会驾驶： 强化学习](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_smartcab/smartcab.ipynb)
-  ​
+- [项目5 --- TensorFlow对图像数据进行分类学习：卷积神经网络](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_image_classification/image_classification.ipynb)
 
 # **数据分析（进阶）纳米学位（已通过）：**
 
