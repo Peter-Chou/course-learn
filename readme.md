@@ -1,4 +1,4 @@
-# **机器学习纳米学位（学习中）：**
+# **机器学习纳米学位（已完成）：**
 
 监督学习，非监督学习，强化学习，深度学习
 
@@ -6,9 +6,10 @@
 - [项目2 --- Python寻找慈善机构潜在的捐款人： Adaboost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_finding_donors/finding_donors.ipynb) 
 - [项目3 --- Python对经销商数据对客户进行分类： GMM聚类](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_customer_segments/customer_segments.ipynb)
 - [项目4 --- Python训练智能出租车学会驾驶规则： 强化学习](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_smartcab/smartcab.ipynb)
-- [项目5 --- TensorFlow对图像数据进行分类学习：卷积神经网络](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_image_classification/image_classification.ipynb)
+- [项目5 --- TensorFlow对图像数据进行分类学习： 卷积神经网络](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_image_classification/image_classification.ipynb)
+- [项目6 --- Python对Rossmann药店日销售量预测： XGBoost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_Rossmann_Store_Sales/Rossmann_Store_Sales_Report.ipynb)
 
-# **数据分析纳米学位（已通过）：**
+# **数据分析纳米学位（已完成）：**
 
 数据清理，数据筛选，数据挖掘，建模预测，数据可视化
 
