@@ -9,7 +9,10 @@
 - [项目5 --- TensorFlow对图像数据进行分类学习： 卷积神经网络](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_image_classification/image_classification.ipynb)
 - [项目6 --- Python预测Rossmann药店日销售量： XGBoost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_Rossmann_Store_Sales/Rossmann_Store_Sales_Report.ipynb)
 
-![机器学习纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/MLND_certificate_median.png?style=centerme)
+<p align="center"><img src="https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/MLND_certificate_median.png"></p>
+
+
+![机器学习纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/MLND_certificate_median.png)
 
 # **数据分析纳米学位 --- 已通过** 
 
