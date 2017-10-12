@@ -1,4 +1,4 @@
-# **机器学习纳米学位（已完成）：**
+# **机器学习纳米学位（已完成）** [证书]()
 
 监督学习，非监督学习，强化学习，深度学习
 
@@ -9,7 +9,9 @@
 - [项目5 --- TensorFlow对图像数据进行分类学习： 卷积神经网络](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_image_classification/image_classification.ipynb)
 - [项目6 --- Python预测Rossmann药店日销售量： XGBoost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_Rossmann_Store_Sales/Rossmann_Store_Sales_Report.ipynb)
 
-# **数据分析纳米学位（已完成）：**
+![机器学习纳米学位]()
+
+# **数据分析纳米学位（已完成）** [证书]()
 
 数据清理，数据筛选，数据挖掘，建模预测，数据可视化
 
@@ -20,8 +22,8 @@
 - [项目5 --- Python机器学习并找出安然公司嫌疑人： 高斯朴素贝叶斯](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_EnronAnalyssis/Enron_project.ipynb)
 - [项目6 --- 可视化棒球手表现的交互呈现： dimple.js / d3.js](http://bl.ocks.org/Peter-Chou/819e62ac1506866c9d66a4c69ea7dd83)
 
-![数据分析纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/DAND_certificate_small.png)
+![数据分析纳米学位]()
 
-# **中国准精算师资格考试成绩单：**
+# **中国准精算师资格考试** [成绩单]()
 
-![中国准精算师成绩单](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/Associate%20of%20China%20Association%20of%20Actuaries_ScoreSheet.png)
+![中国准精算师成绩单]()
