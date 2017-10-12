@@ -1,6 +1,6 @@
-# **机器学习纳米学位 --- 已完成**
+# **机器学习纳米学位 --- 已通过**
 
-监督学习，非监督学习，强化学习，深度学习
+监督学习、非监督学习、强化学习、深度学习
 
 - [项目1 --- Python对波士顿房价进行预测： 决策树回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_boston_housing/boston_housing.ipynb)
 - [项目2 --- Python寻找慈善机构潜在的捐款人： Adaboost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_finding_donors/finding_donors.ipynb) 
@@ -11,9 +11,9 @@
 
 ![机器学习纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/MLND_certificate_median.png)
 
-# **数据分析纳米学位 --- 已完成** 
+# **数据分析纳米学位 --- 已通过** 
 
-数据清理，数据筛选，数据挖掘，建模预测，数据可视化
+数据清理、SQL、探索性数据分析、数据可视化
 
 - [项目1 --- Python分析泰坦尼克生存率的特征： Logistic回归](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_TitanicAnalysis/Titanic_Survival_Analysis.ipynb)
 - [项目2 --- Python对免费试学筛选器的改进评估： A/B Test](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_ABtest/AB_test.ipynb)
@@ -25,5 +25,7 @@
 ![数据分析纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/DAND_certificate_median.png)
 
 # **中国准精算师资格考试 --- 已全部通过** 
+
+数理统计、利息理论、模型构建、风险管理、产品定价、准备金评估
 
 ![中国准精算师成绩单](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/Associate%20of%20China%20Association%20of%20Actuaries_ScoreSheet_median.png)
