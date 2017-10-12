@@ -9,7 +9,7 @@
 - [项目5 --- TensorFlow对图像数据进行分类学习： 卷积神经网络](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_image_classification/image_classification.ipynb)
 - [项目6 --- Python预测Rossmann药店日销售量： XGBoost](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/MLND_Rossmann_Store_Sales/Rossmann_Store_Sales_Report.ipynb)
 
-![机器学习纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/MLND_certificate_median.png)
+![机器学习纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/MLND_certificate_median.png?style=centerme)
 
 # **数据分析纳米学位 --- 已通过** 
 
@@ -22,10 +22,10 @@
 - [项目5 --- Python机器学习并找出安然公司嫌疑人： 高斯朴素贝叶斯](http://nbviewer.jupyter.org/github/Peter-Chou/data-science/blob/master/Projects/DAND_EnronAnalyssis/Enron_project.ipynb)
 - [项目6 --- 可视化棒球手表现的交互呈现： dimple.js / d3.js](http://bl.ocks.org/Peter-Chou/819e62ac1506866c9d66a4c69ea7dd83)
 
-![数据分析纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/DAND_certificate_median.png)
+![数据分析纳米学位](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/DAND_certificate_median.png?style=centerme)
 
 # **中国准精算师资格考试 --- 已全部通过** 
 
 数理统计、利息理论、模型构建、风险管理、产品定价、准备金评估
 
-![中国准精算师成绩单](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/Associate%20of%20China%20Association%20of%20Actuaries_ScoreSheet_median.png)
+![中国准精算师成绩单](https://raw.githubusercontent.com/Peter-Chou/data-science/master/Certificate/Associate%20of%20China%20Association%20of%20Actuaries_ScoreSheet_median.png?style=centerme)
