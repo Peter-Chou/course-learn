@@ -1,6 +1,19 @@
 
+# 课程汇总
 
-# **深度学习纳米学位**
+## **自然语言处理纳米学位**
+
+文本处理、HMM、词嵌入、翻译系统、注意力、语音识别  
+
+- [项目 --- 词性标注：隐马尔可夫模型 HMM](https://nbviewer.jupyter.org/github/Peter-Chou/course-learn/blob/master/Projects/NLPND_hmm_tagger/HMM%20Tagger.ipynb)
+- [项目 --- 翻译系统：seq2seq](https://nbviewer.jupyter.org/github/Peter-Chou/course-learn/blob/master/Projects/NLPND_nmt/machine_translation.ipynb)
+- [项目 --- 语音识别：声学模型](https://nbviewer.jupyter.org/github/Peter-Chou/course-learn/blob/master/Projects/NLPND_vui/vui_notebook.ipynb)
+
+![nlpnd](./certificate/nlpnd.png)
+
+---
+
+## **深度学习纳米学位**
 
 卷积神经网络、循环神经网络、深度强化学习  
 
@@ -11,8 +24,9 @@
 
 ![dlnd](./certificate/dlnd.png)
 
+---
 
-# **机器学习纳米学位 --- 已通过**
+## **机器学习纳米学位 --- 已通过**
 
 监督学习、非监督学习、强化学习、深度学习
 
@@ -23,12 +37,11 @@
 - [项目 --- TensorFlow对图像数据进行分类学习： 卷积神经网络](http://nbviewer.jupyter.org/github/Peter-Chou/course-learn/blob/master/Projects/MLND_image_classification/image_classification.ipynb)
 - [项目 --- Python预测Rossmann药店日销售量： XGBoost](http://nbviewer.jupyter.org/github/Peter-Chou/course-learn/blob/master/Projects/MLND_Rossmann_Store_Sales/Rossmann_Store_Sales_Report.ipynb)
 
-
 ![mlnd](./certificate/mlnd.png)
 
 ---
 
-# **数据分析纳米学位 --- 已通过** 
+## **数据分析纳米学位 --- 已通过** 
 
 数据清理、SQL、探索性数据分析、数据可视化
 
@@ -43,8 +56,8 @@
 
 ---
 
-# **中国准精算师资格考试 --- 已通过** 
+## **中国准精算师资格考试 --- 已通过** 
 
 数理统计、利息理论、模型构建、风险管理、产品定价、准备金评估
 
-![中国准精算师成绩单](./certificate/Associate of China Association of Actuaries_ScoreSheet.png)
+![中国准精算师成绩单](./certificate/acaa.png)
